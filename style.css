@@ -5,7 +5,7 @@
 margin: 0;
 padding: 0;
 }
- 
+
 body{
 font-family: 'Poppins', sans-serif ;
 }
@@ -160,9 +160,11 @@ min-height: fit-content;
 
 .section__pic-container{
 display: flex;
-height: 250px;
-width: 250px;
+height: 400px;
+width: 400px;
 margin: 0 10px;
+border-radius: 10% 10%;
+overflow: hidden;
 }
 
 .section__text{
@@ -241,5 +243,27 @@ cursor: pointer;
 }
 
 
+#about{
+    position: relative;
+}
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top:  2rem;
+}
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+.about-containers, .about-details-container{
+    display: flex;
+}
 
-
+.about-pic{
+    border-radius: 2rem;
+}
+.arrow{
+    position: absolute;
+right: -5rem;
+bottom: 2.5rem;
+}
