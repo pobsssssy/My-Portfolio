@@ -312,12 +312,38 @@ text-align: initial;
 flex-wrap: wrap;
 flex-direction: row;
 gap: 2 rem;
-justify-content: space-around;
+justify-content: space-between;
 }
 
 article, icon{
     cursor: default;
 }
+
+
+#projects{
+    position: relative;
+}
+
+.project-p{
+    color: red;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#contact{
+    position: relative;
+}
+
+
 
 
 
